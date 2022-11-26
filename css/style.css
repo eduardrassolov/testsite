@@ -1,0 +1,168 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold';
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3rem;
+}
+h3{
+  font-family: 'Montserrat-Black' sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.btn {}
+
+.img-iphone {
+  transform: rotate(25deg);
+  width: 25%;
+  position: absolute;
+  right: 15%;
+}
+
+/* Download buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Download buttons */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.info-features {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.icons-cont {
+  padding: 5%;
+}
+
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #ff4c68;
+  cursor: pointer;
+}
+
+/* testimonials section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 30px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 20px;
+}
+
+/* testimonials section */
+/* Pricing section */
+#pricing {
+  padding: 50px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 3%;
+}
+
+
+
+/* cta section */
+#cta{
+  background-color: #ff4c68;
+  padding: 3% 20% 0 20%;
+  text-align: center;
+  font-family: 'Montserrat';
+  color: #fff;
+}
+
+/* Footer section */
+#footer{
+  text-align: center;
+  padding-top: 3%;
+  background-color: #fff;
+}
+.copyright{
+  padding-top: 2%;
+  color: grey;
+}
+
+@media (max-width:1028px) {
+  .img-iphone {
+    transform: rotate(0);
+    position: static;
+    width: 60%;
+
+  }
+#title {
+    text-align: center;
+  }
+.hiddenbar{
+  text-align: left;
+}
+}
